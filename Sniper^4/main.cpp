@@ -17,7 +17,7 @@ int main() {
 
     sf::RenderWindow ventana(sf::VideoMode(800, 600,32), "Puntos en las esquinas con SFML");
 
-    
+   
     while (ventana.isOpen()) {
         sf::Event event;
         while (ventana.pollEvent(event)) {
